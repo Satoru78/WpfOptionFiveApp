@@ -1,0 +1,13 @@
+﻿<Application x:Class="WpfOptionFiveApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfOptionFiveApp"
+             StartupUri="Views/Windows/AvtorizationWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#FEA9AB"></Setter>
+            <Setter Property="Background" Value="#EAB14D"></Setter>
+            <Setter Property="FontFamily" Value="Segoe Print"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
